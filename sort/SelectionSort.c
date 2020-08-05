@@ -26,9 +26,6 @@ int main()
             totalCmpTime++;
             if(arr[i] > arr[j]){
                 swap(&arr[i], &arr[j]);
-                // int tmp = arr[i];
-                // arr[i] = arr[j];
-                // arr[j] = tmp;
             }
         }
     }
